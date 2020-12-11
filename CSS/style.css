@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+h1{
+    text-align: center;
+    padding: 30px 0;
+    font-size: 1.8rem;
+}
+.fas{
+    background-image: linear-gradient(#a29bfe,#ff7675);
+}
+main{
+    width: 90%;
+    height: 560px;
+    margin:auto;
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    /* border:1px solid black; */
+}
+div{
+    width:30%;
+    height:150px;
+    /* border: 1px solid red; */
+    margin-top: 10px;
+    box-shadow: 0 5 12px black;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 0.5px;
+    cursor: pointer;
+}
+.a{
+    background:url(../Images/image1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.b{
+    background:url(../Images/image2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.c{
+    background:url(../Images/image3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.d{
+    background:url(../Images/image4.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.e{
+    background:url(../Images/image5.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.f{
+    background:url(../Images/image6.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.g{
+    background:url(../Images/image7.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.h{
+    background:url(../Images/image8.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.i{
+    background:url(../Images/image9.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+@media screen and (max-width:768px){
+
+    main{
+        width: 100%;
+        height: auto;
+        margin:auto;
+        display: flex;
+        justify-content:space-around;
+        flex-wrap: wrap;
+        /* border:1px solid black; */
+    }
+    div{
+        width:45%;
+        height:150px;
+        /* border: 1px solid red; */
+        margin-top: 10px;
+        box-shadow: 0 5 12px black;
+        border-radius: 15px;
+        text-align: center;
+        font-size: 0.5px;
+    }
+}
